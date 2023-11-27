@@ -14,7 +14,7 @@ export interface ShortenAPIResponse {
     error?: string;
 }
 
-export class ApnaLinkAPI {
+export default class ApnaLinkAPI {
     private apiKey: string;
     private baseURL: string;
 
