@@ -24,7 +24,7 @@ export default class ApnaLinkAPI {
     }
 
     async shorten(long_url: URL | string): Promise<string> {
-        let resp = await this.request('/shorten', 'POST', { 'long_url': long_url.toString() }) as ShortenAPIResponse;
+        let resp = await this.request('/shorten/', 'POST', { 'long_url': long_url.toString() }) as ShortenAPIResponse;
         if(resp.success) {
             return resp.data?.short_link as string;
         } else {
