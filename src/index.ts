@@ -1,4 +1,5 @@
 import { URL } from "url";
+import fetch from "node-fetch";
 
 export interface ApnaLinkAPIParams {
     apiKey: string;
@@ -43,9 +44,10 @@ export default class ApnaLinkAPI {
         });
 
         if (!res.ok) {
-            throw new Error(await res.json());
+            throw new Error(await res.json() as unknown as any);
         }
         return await res.json();
     }
+
 
 }

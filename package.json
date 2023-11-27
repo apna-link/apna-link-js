@@ -1,6 +1,6 @@
 {
   "name": "apna-link-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Apna.Link URL Shortening API Wrapper for JavaScript and TypeScript",
   "homepage": "https://apna.link/docs",
   "repository": {
@@ -26,6 +26,7 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "axios": "^1.6.2"
+    "axios": "^1.6.2",
+    "node-fetch": "^3.3.2"
   }
 }
