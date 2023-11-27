@@ -2,7 +2,16 @@
   "name": "apna-link-js",
   "version": "1.0.0",
   "description": "Apna.Link URL Shortening API Wrapper for JavaScript and TypeScript",
-  "main": "index.js",
+  "homepage": "https://apna.link/docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apna-link/apna-link-js.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc"
