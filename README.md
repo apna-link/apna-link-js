@@ -23,7 +23,7 @@ npm install apna-link-js
 First, import the package:
 
 ```javascript
-const ApnaLinkAPI = require('apna-link-js');
+const ApnaLinkAPI = require('apna-link-js').default;
 ```
 
 Then, create an instance of the `ApnaLinkAPI` class:
